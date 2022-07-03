@@ -1,0 +1,103 @@
+:root {
+    --c1: #e0e2df;
+    --c2: #143c61;
+    --c3: #61b4d9;
+    --c4: #222223;
+    --c5: #f2221c;
+    --c6: #4304a3;
+    --c7: #5c77c7;
+    --c8: #768086;
+    --c9: #5f5861;
+    --c10: #2b0b5b;
+    --c11: #15243c;
+}
+
+/* ----------------- PROFILE CUSTOM------------------ */
+ul {
+    color: var(--c2);
+}
+.data-user,
+#name,
+#title,
+#desc {
+    font-family: "Noto Sans JP", sans-serif;
+}
+#name {
+    margin-bottom: 50px;
+}
+/* ----------------- PROFILE BAWAAN TEMPLATE ------------------ */
+.font-size38 {
+    font-size: 38px;
+}
+.team-single-text .section-heading h4,
+.section-heading h5 {
+    font-size: 36px;
+}
+
+.team-single-text .section-heading.half {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+    .team-single-text .section-heading h4,
+    .section-heading h5 {
+        font-size: 32px;
+    }
+    .team-single-text .section-heading.half {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .team-single-text .section-heading h4,
+    .section-heading h5 {
+        font-size: 28px;
+    }
+    .team-single-text .section-heading.half {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team-single-text .section-heading h4,
+    .section-heading h5 {
+        font-size: 24px;
+    }
+}
+
+.padding-30px-all {
+    padding: 30px;
+}
+.bg-light-gray {
+    background-color: var(--c1);
+}
+.text-center {
+    text-align: center !important;
+}
+.team-single-img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+img {
+    max-width: 60%;
+    height: auto;
+}
+
+.list-style9 {
+    list-style: none;
+    padding: 0;
+}
+
+.list-style9 li {
+    position: relative;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.list-style9 li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

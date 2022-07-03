@@ -1,0 +1,113 @@
+:root {
+    --c1: #e0e2df;
+    --c2: #143c61;
+    --c3: #61b4d9;
+    --c4: #222223;
+    --c5: #f2221c;
+    --c6: #4304a3;
+    --c7: #5c77c7;
+    --c8: #768086;
+    --c9: #5f5861;
+    --c10: #2b0b5b;
+    --c11: #15243c;
+}
+/* ----------------- NAVBAR ------------------ */
+.navbar .nav-link:hover {
+    background: var(--sky);
+    color: var(--darkpurple);
+}
+.media a {
+    font-family: "Noto Sans JP", sans-serif;
+    color: var(--c10);
+}
+.media a:hover {
+    background-color: var(--c1);
+}
+/* ----------------- JUMBOTRON ------------------ */
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background: url(/img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+@media (max-width: 768px) {
+    .jumbotron {
+        background-size: 80vw;
+        height: 60vh;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+    visibility: hidden;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    visibility: hidden;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: 0.25rem;
+}
+
+/* ----------------- SEARCH BOX ------------------ */
+.search-sec {
+    margin-top: 20px;
+    padding: 2rem;
+}
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+.wrn-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+@media (min-width: 992px) {
+    .search-sec {
+        /* position: relative;
+    top: -114px; */
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1a4668;
+    }
+}
+/* ----------------- JOB LIST ------------------ */
+.title {
+    font-size: 20px;
+    text-decoration: none !important;
+}
