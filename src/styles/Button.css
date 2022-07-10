@@ -1,0 +1,31 @@
+.btn {
+    width: 7rem;
+    height: 2rem;
+    margin: 0 0.2rem;
+    border: none;
+    color: #fff;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-success {
+    background: #4169E1;
+}
+
+.btn-sign {
+    background: #43aff3;
+}
+
+.box {
+    padding: 0 0.6rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 550px;
+    text-align: justify;
+    position: absolute;
+
+}
